@@ -1,0 +1,32 @@
+*,
+*:before,
+*:after{
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+body {
+    font-family:'Gilroy-Bold', sans-serif;
+    font-size: 1rem;
+    line-height: 1.77;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* MAIN COLOR PALETTE */
+.text-blue {
+    color: #042359;
+}
+.bg-blue {
+    background-color: #042359;
+}
+.text-yellow {
+    color: #F6AE01;
+}
+.bg-yellow {
+    background-color: #F6AE01;
+}
+.text-darkblue {
+    color: #09212D;
+}
+.bg-darkblue {
+    background-color: #09212D;
+}
