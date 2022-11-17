@@ -2,31 +2,56 @@
 *:before,
 *:after{
   -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-    font-family:'Gilroy-Bold', sans-serif;
-    font-size: 1rem;
-    line-height: 1.77;
-    -webkit-text-size-adjust: 100%;
+  font-family:'Gilroy-Bold', sans-serif;
+  font-size: 1rem;
+  line-height: 1.77;
+  -webkit-text-size-adjust: 100%;
 }
 
 /* MAIN COLOR PALETTE */
 .text-blue {
-    color: #042359;
+  color: #042359;
 }
 .bg-blue {
-    background-color: #042359;
+  background-color: #042359;
 }
 .text-yellow {
-    color: #F6AE01;
+  color: #F6AE01;
 }
 .bg-yellow {
-    background-color: #F6AE01;
+  background-color: #F6AE01;
 }
 .text-darkblue {
-    color: #09212D;
+  color: #09212D;
 }
 .bg-darkblue {
-    background-color: #09212D;
+  background-color: #09212D;
+}
+
+/* Navbar */
+.search-bar {
+  position: relative;
+  box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+}
+.search-bar input {
+  text-indent: 25px;
+  border: none;
+  border-radius: 10px;
+  background: none;
+}
+.search-bar input::placeholder {
+  color: #fff;
+}
+.search-bar .fa-search {
+  position: absolute;
+  top: 10px;
+  left: 16px;
+}
+.search-bar input:focus{
+  background-color: transparent;
+  color: #fff;
+  box-shadow: none;
 }
