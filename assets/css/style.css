@@ -73,11 +73,11 @@ header .navbar .navbar-nav .nav-item .nav-link:hover {
 }
 /* Heder */
 header {
-  background-image: url("/assets/images/isarog-header.jpg");
+  background-image: url("/assets/images/Aguirangan_Island_1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: inset 0px 170px 110px rgba(9, 33, 45, 0.65),inset 0px -60px 60px rgba(9, 33, 45, 0.65);
+  box-shadow: inset 0px 170px 110px rgba(9, 33, 45, 0.65),inset 0px -160px 110px rgba(9, 33, 45, 0.65);
 }
 .header-content {
   left: 50%;
@@ -85,7 +85,11 @@ header {
   position: absolute;
   transform: translate(-50%, -50%);
 }
-
+.header-content h1 {
+  font-family:'Gilroy-Bold', sans-serif;
+  font-size: 8vw;
+  text-shadow: 0px 2px 3px rgba(9, 33, 45, 0.65);
+}
 @media (max-width: 991px) {
   .search-bar .fa-search {
     left: 0;
