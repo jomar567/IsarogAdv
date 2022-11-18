@@ -10,6 +10,25 @@ body {
   line-height: 1.77;
   -webkit-text-size-adjust: 100%;
 }
+.section-heading::before{
+  position: absolute;
+  content: "";
+  border-left: 5px solid #F6AE01;
+  height: 100%;
+  left: -23px;
+  top: 0;
+  bottom: 0;
+}
+.section-heading h1, .section-heading p {
+  margin: 0;
+}
+.section-heading h1 {
+  font-size: 40px;
+}
+.section-heading p {
+  font-family:'Gilroy-Medium', sans-serif;
+  font-size: 16px;
+}
 
 /* MAIN COLOR PALETTE */
 .text-blue {
@@ -95,6 +114,8 @@ header {
   color: #F6AE01;
   border: 0;
 }
+/* Destonantion carousel */
+
 @media (max-width: 991px) {
   .search-bar .fa-search {
     left: 0;
