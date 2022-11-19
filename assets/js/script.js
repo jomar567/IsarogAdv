@@ -29,8 +29,8 @@ $(document).ready(function(){
           slidesToShow: 1,
           slidesToScroll: 1,
           prevArrow: false,
-          nextArrow: false,
-          dots: true
+          nextArrow: false
+          // dots: true
         }
       }
       // You can unslick at a given breakpoint now by adding:

@@ -56,7 +56,6 @@ body {
 .custom-btn:hover {
   background-color: #042359;
   color: #F6AE01;
-  border: 0;
 }
 
 /* Navbar */
@@ -144,7 +143,7 @@ header {
   z-index: 5;
 }
 .carousel-section .slick-next {
-  right: 5px;
+  right: 25px;
   z-index: 5;
 }
 .slick-slide>div {
