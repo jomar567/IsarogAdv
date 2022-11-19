@@ -10,6 +10,15 @@ body {
   line-height: 1.77;
   -webkit-text-size-adjust: 100%;
 }
+.gilroy-heavy {
+  font-family:'Gilroy-Heavy', sans-serif;
+}
+.gilroy-medium {
+  font-family:'Gilroy-Medium', sans-serif;
+}
+.gilroy-light {
+  font-family:'Gilroy-Light', sans-serif;
+}
 .section-heading::before{
   position: absolute;
   content: "";
@@ -26,7 +35,6 @@ body {
   font-size: 40px;
 }
 .section-heading p {
-  font-family:'Gilroy-Medium', sans-serif;
   font-size: 16px;
 }
 
@@ -61,9 +69,6 @@ body {
 /* Navbar */
 .navbar {
   z-index: 2;
-}
-header .navbar .navbar-nav .nav-item .nav-link {
-  font-family:'Gilroy-Light', sans-serif;
 }
 header .navbar .navbar-nav .nav-item .nav-link.active {
   font-weight: bold;
@@ -113,7 +118,6 @@ header {
   transform: translate(-50%, -50%);
 }
 .header-content h1 {
-  font-family:'Gilroy-Bold', sans-serif;
   font-size: 8vw;
   text-shadow: 0px 2px 3px rgba(9, 33, 45, 0.65);
 }
