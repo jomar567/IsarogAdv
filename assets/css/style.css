@@ -50,6 +50,14 @@ a {
   background-color: #042359;
   color: #F6AE01;
 }
+.custom-btn__reversed {
+  background-color: #042359;
+  color: #F6AE01;
+}
+.custom-btn__reversed:hover {
+  background-color: #F6AE01;
+  color: #042359;
+}
 
 /* Navbar */
 .navbar {
