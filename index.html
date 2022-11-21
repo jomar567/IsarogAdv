@@ -8,15 +8,16 @@
   <!-- Font Family -->
   <link href="https://fonts.cdnfonts.com/css/gilroy-bold?styles=20876,20877,20878,20879" rel="stylesheet">
   <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="/assets/js/script.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
 </head>
 <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-dark pt-5 pb-5">
+    <header class="vh-100 mb-5">
+      <nav class="navbar navbar-expand-lg pt-5">
         <div class="container">
           <a class="navbar-brand d-flex align-content-center align-items-center px-4" href="#">
             <img src="/assets/images/Logo.png" alt="Logo" height="50">
@@ -27,19 +28,19 @@
           <div class="col-4 collapse navbar-collapse justify-content-between px-4" id="navbar">
             <ul class="navbar-nav mb-lg-0 m-auto">
               <li class="nav-item">
-                <a href="index.html" class="nav-link active text-white mx-lg-2">Home</a>
+                <a href="index.html" class="nav-link active text-white mx-lg-2 gilroy-light">Home</a>
               </li>
               <li class="nav-item">
-                <a href="about.html" class="nav-link text-white mx-lg-2">About</a>
+                <a href="about.html" class="nav-link text-white mx-lg-2 gilroy-light">About</a>
               </li>
               <li class="nav-item">
-                <a href="tour.html" class="nav-link text-white mx-lg-2">Tour</a>
+                <a href="tour.html" class="nav-link text-white mx-lg-2 gilroy-light">Tour</a>
               </li>
               <li class="nav-item">
-                <a href="hotels.html" class="nav-link text-white mx-lg-2">Hotels</a>
+                <a href="hotels.html" class="nav-link text-white mx-lg-2 gilroy-light">Hotels</a>
               </li>
               <li class="nav-item">
-                <a href="contact.html" class="nav-link text-white mx-lg-2">Contact</a>
+                <a href="contact.html" class="nav-link text-white mx-lg-2 gilroy-light">Contact</a>
               </li>
             </ul>
             <div class="search-bar">
@@ -48,7 +49,99 @@
             </div>
           </div>
       </nav>
+      <div class="header-content container text-white text-center">
+        <h1>EXPLORE</h1>
+        <h1>CAMARINES SUR</h1>
+        <h3>Discover the Sports and Adventure Capital of the Philippines</h3>
+        <button type="button" class="custom-btn border-0 btn btn-lg mt-5 px-5">
+          Explore Now <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
+        </button>
+      </div>
     </header>
+
+    <section class="container destination-carousel pt-5">
+      <div class="section-heading ms-4 position-relative lh-1 py-2 mb-5">
+        <h1 class="text-blue">FEATURED DESTINATION</h1>
+        <p class="gilroy-medium">Take a look at the best places in Cam Sur</p>
+      </div>
+      
+      <div class="carousel-section mb-5">
+        <div class="row">
+          <div class="slider responsive">
+            <div class="rounded-4">
+              <div class="card">
+                <img class="img-fluid" alt="WaterSports Complex" src="assets/images/watersports.png">
+                <div class="card-body lh-1">
+                  <h4 class="card-title text-blue">WaterSports Complex</h4>
+                  <p class="card-text">Naga City, Camarines Sur</p>
+                  <button class="btn custom-btn border-0">Explore More</button>
+                </div>
+              </div>
+            </div>
+            <div class="rounded-4">
+              <div class="card">
+                <img class="img-fluid" alt="Lahos Island" src="assets/images/LahosIsland.png">
+                <div class="card-body lh-1">
+                  <h4 class="card-title text-blue">Lahos Island</h4>
+                  <p class="card-text">Caramoan, Camarines Sur</p>
+                  <button class="btn custom-btn border-0">Explore More</button>
+                </div>
+              </div>
+            </div>
+            <div class="rounded-4">
+              <div class="card">
+                <img class="img-fluid" alt="Aguirangan Island" src="assets/images/AguiranganIsland.png">
+                <div class="card-body lh-1">
+                  <h4 class="card-title text-blue">Aguirangan Island</h4>
+                  <p class="card-text">Presentacion, Camarines Sur</p>
+                  <button class="btn custom-btn border-0">Explore More</button>
+                </div>
+              </div>
+            </div>
+            <div class="rounded-4">
+              <div class="card">
+                <img class="img-fluid" alt="100%x280" src="assets/images/SirumaBeach.png">
+                <div class="card-body lh-1">
+                  <h4 class="card-title text-blue">Siruma Beach</h4>
+                  <p class="card-text">Siruma, Camarines Sur</p>
+                  <button class="btn custom-btn border-0">Explore More</button>
+                </div>
+              </div>
+            </div>
+            <div class="rounded-4">
+              <div class="card">
+                <img class="img-fluid" alt="100%x280" src="assets/images/AtulayanIsland.png">
+                <div class="card-body lh-1">
+                  <h4 class="card-title text-blue">Atulayan Island</h4>
+                  <p class="card-text">Sagnay, Camarines Sur</p>
+                  <button class="btn custom-btn border-0">Explore More</button>
+                </div>
+              </div>
+            </div>
+            <div class="rounded-4">
+              <div class="card">
+                <img class="img-fluid" alt="100%x280" src="assets/images/MatukadIsland.png">
+                <div class="card-body lh-1">
+                  <h4 class="card-title text-blue">Matukad Island</h4>
+                  <p class="card-text">Caramoan, Camarines Sur</p>
+                  <button class="btn custom-btn border-0">Explore More</button>
+                </div>
+              </div>
+            </div>
+            <div class="rounded-4">
+              <div class="card">
+                <img class="img-fluid" alt="100%x280" src="assets/images/CagbalinadIsland.png">
+                <div class="card-body lh-1">
+                  <h4 class="card-title text-blue">Cagbalinad Island</h4>
+                  <p class="card-text">Caramoan, Camarines Sur</p>
+                  <button class="btn custom-btn border-0">Explore More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- INSERT FOOTER CODE -->
     <footer>
@@ -76,8 +169,10 @@
     <p class=""><strong>Copyright©2022 Isarog Adventure. All Rights Reserved</strong></p>
   </div>
     </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-  crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/script.js"></script>
 </body>
 </html>
