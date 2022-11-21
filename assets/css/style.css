@@ -10,6 +10,9 @@ body {
   line-height: 1.77;
   -webkit-text-size-adjust: 100%;
 }
+a {
+  text-decoration: none;
+}
 .gilroy-heavy {
   font-family:'Gilroy-Heavy', sans-serif;
 }
@@ -18,24 +21,6 @@ body {
 }
 .gilroy-light {
   font-family:'Gilroy-Light', sans-serif;
-}
-.section-heading::before{
-  position: absolute;
-  content: "";
-  border-left: 5px solid #F6AE01;
-  height: 100%;
-  left: -23px;
-  top: 0;
-  bottom: 0;
-}
-.section-heading h1, .section-heading p {
-  margin: 0;
-}
-.section-heading h1 {
-  font-size: 40px;
-}
-.section-heading p {
-  font-size: 16px;
 }
 
 /* MAIN COLOR PALETTE */
@@ -103,7 +88,35 @@ header .navbar .navbar-nav .nav-item .nav-link:hover {
   color: #fff;
   box-shadow: none;
 }
-/* Heder */
+/* Heading Settings */
+.section-heading.left-bordered::before{
+  position: absolute;
+  content: "";
+  border-left: 5px solid #F6AE01;
+  height: 100%;
+  left: -23px;
+  top: 0;
+  bottom: 0;
+}
+.section-heading.right-bordered::before {
+  position: absolute;
+  content: "";
+  border-right: 5px solid #F6AE01;
+  height: 100%;
+  right: -23px;
+  top: 0;
+  bottom: 0;
+}
+.section-heading h1, .section-heading p {
+  margin: 0;
+}
+.section-heading h1 {
+  font-size: 45px;
+}
+.section-heading p {
+  font-size: 16px;
+}
+/* Header */
 header {
   background-image: url("/assets/images/Aguirangan_Island_1.jpg");
   background-position: center;
@@ -121,39 +134,19 @@ header {
   font-size: 8vw;
   text-shadow: 0px 2px 3px rgba(9, 33, 45, 0.65);
 }
-/* Destonantion carousel */
-/* .carousel-section .slick-prev, .carousel-section .slick-next {
-  z-index: 5;
-  background-color: #fff;
-  color: #000;
-  border-radius: 50%;
-  box-shadow: 5px 5px 10px #000;
-  width: 70px;
-  height: 70px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.carousel-section .slick-next {
-  right: 0;
-  opacity: 1;
-}
-.carousel-section .slick-prev {
-  left: 0;
-  opacity: 1;
-} */
-.carousel-section .slick-prev {
+/* Destination Carousel */
+.carousel-content .slick-prev {
   left: 5px;
   z-index: 5;
 }
-.carousel-section .slick-next {
+.carousel-content .slick-next {
   right: 25px;
   z-index: 5;
 }
 .slick-slide>div {
   padding: 0 15px;
 }
-.carousel-section .slick-prev::before {
+.carousel-content .slick-prev::before {
   content: "\f104";
   font-family: FontAwesome;
   background-color: #fff;
@@ -169,7 +162,7 @@ header {
   padding-left: 14px;
   box-shadow: 5px 5px 10px #000;
 }
-.carousel-section .slick-next::before {
+.carousel-content .slick-next::before {
   content: "\f105";
   font-family: FontAwesome;
   background-color: #fff;
@@ -185,8 +178,12 @@ header {
   padding-left: 20px;
   box-shadow: 5px 5px 10px #000;
 }
-.carousel-section img {
+.carousel-content img {
   border-radius: 10px 10px 0 0;
+}
+/* Tour Package */
+.tour-package__content .card .card-img-overlay {
+  box-shadow: inset 0px 70px 30px rgba(9, 33, 45, 0.65),inset 0px -70px 50px rgba(9, 33, 45, 0.65);
 }
 @media (max-width: 991px) {
   .search-bar .fa-search {
