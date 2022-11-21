@@ -185,6 +185,14 @@ header {
 .tour-package__content .card .card-img-overlay {
   box-shadow: inset 0px 70px 30px rgba(9, 33, 45, 0.65),inset 0px -70px 50px rgba(9, 33, 45, 0.65);
 }
+/* Hotel and Resort */
+.hotelAndResort__section .card .card-img-overlay {
+  box-shadow: inset 0px 60px 60px rgb(9 33 45 / 65%), inset 0px -90px 30px rgb(9 33 45 / 65%);
+}
+.hotelAndResort__section .card .badge {
+  width: 20%;
+  background: linear-gradient(to left, rgba(247,247,49,1) 0%,rgba(255,255,255,0) 90%);
+}
 @media (max-width: 991px) {
   .search-bar .fa-search {
     left: 0;
