@@ -45,6 +45,7 @@ $(document).ready(function(){
     slidesToScroll: 1,
     // autoplay: true,
     fade: true,
+    adaptiveHeight: true,
     asNavFor: '.thumbnail'
   });
   $('.thumbnail').slick({
