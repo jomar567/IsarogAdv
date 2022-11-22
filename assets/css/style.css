@@ -240,3 +240,8 @@ header {
     margin: 0 30px;
   }
 }
+@media (max-width: 480px) {
+  .testimonial_section .slick-slide>div {
+    margin: 0;
+  }
+}

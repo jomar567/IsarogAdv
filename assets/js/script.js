@@ -43,10 +43,19 @@ $(document).ready(function(){
     speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // autoplay: true,
+    autoplay: true,
     fade: true,
     adaptiveHeight: true,
-    asNavFor: '.thumbnail'
+    asNavFor: '.thumbnail',
+    responsive: [
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          arrows: false
+        }
+      }
+    ]
   });
   $('.thumbnail').slick({
     dots: false,
@@ -56,7 +65,6 @@ $(document).ready(function(){
     slidesToShow: 3,
     slidesToScroll: 1,
     centerMode: true,
-    // autoplay: true,
     focusOnSelect: true,
     asNavFor: '.main-slide',
     centerPadding: '60px',
