@@ -10,8 +10,9 @@ body {
   line-height: 1.77;
   -webkit-text-size-adjust: 100%;
 }
-a {
+a, a:hover{
   text-decoration: none;
+  color: inherit;
 }
 .gilroy-heavy {
   font-family:'Gilroy-Heavy', sans-serif;
@@ -127,121 +128,8 @@ header .navbar .navbar-nav .nav-item .nav-link:hover {
 .section-heading p {
   font-size: 16px;
 }
-/* Header */
-header {
-  background-image: url("/assets/images/Aguirangan_Island_1.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: inset 0px 170px 110px rgba(9, 33, 45, 0.65),inset 0px -160px 110px rgba(9, 33, 45, 0.65);
-}
-.header-content {
-  left: 50%;
-  top: 50%;
-  position: absolute;
-  transform: translate(-50%, -50%);
-}
-.header-content h1 {
-  font-size: 8vw;
-  text-shadow: 0px 2px 3px rgba(9, 33, 45, 0.65);
-}
-/* Destination Carousel */
-.carousel-content .slick-prev {
-  left: 5px;
-  z-index: 5;
-}
-.carousel-content .slick-next {
-  right: 25px;
-  z-index: 5;
-}
-.destination-section .slick-slide>div {
-  padding: 0 15px;
-}
-.carousel-content .slick-prev::before {
-  content: "\f104";
-  font-family: FontAwesome;
-  background-color: #fff;
-  color: #000;
-  font-size: 35px;
-  opacity: 1;
-  border-radius: 50%;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  width: 45px;
-  height: 45px;
-  padding-left: 14px;
-  box-shadow: 5px 5px 10px #000;
-}
-.carousel-content .slick-next::before {
-  content: "\f105";
-  font-family: FontAwesome;
-  background-color: #fff;
-  color: #000;
-  font-size: 35px;
-  opacity: 1;
-  border-radius: 50%;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  width: 45px;
-  height: 45px;
-  padding-left: 20px;
-  box-shadow: 5px 5px 10px #000;
-}
-.carousel-content img {
-  border-radius: 10px 10px 0 0;
-}
-/* Tour Package */
-.tour-package__content .card .card-img-overlay {
-  box-shadow: inset 0px 70px 30px rgba(9, 33, 45, 0.65),inset 0px -70px 50px rgba(9, 33, 45, 0.65);
-}
-/* Hotel and Resort */
-.hotelAndResort__section {
-  background-image: url(/assets/images/HotelAndResortBG.jpg);
-  min-height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: inset 0px 400px 100px rgb(9 33 45 / 95%), inset 0px -600px 390px rgb(9 33 45 / 95%);
-}
-.hotelAndResort__section .card .card-img-overlay {
-  box-shadow: inset 0px 60px 60px rgb(9 33 45 / 65%), inset 0px -90px 30px rgb(9 33 45 / 65%);
-}
-.hotelAndResort__section .card .badge {
-  width: 20%;
-  background: linear-gradient(to left, rgba(247,247,49,1) 0%,rgba(255,255,255,0) 90%);
-}
-/* Testimonial Carousel */
-.testimonial_section .slick-slider {
-  margin: 30px auto 0;
-}
-.testimonial_section .slick-slide>div {
-  margin: 0 100px;
-}
-.testimonial_section .thumbnail .slick-slide>div {
-  margin: 0;
-  padding: 0 10px;
-}
-.testimonial_section .main-slide .card-body {
-  border-left: 0;
-}
 @media (max-width: 991px) {
   .search-bar .fa-search {
     left: 0;
-  }
-  .testimonial_section .main-slide .card-body {
-    border-left: 10px solid #F6AE01;
-  }
-}
-@media (max-width: 766px) {
-  .testimonial_section .slick-slide>div {
-    margin: 0 30px;
-  }
-}
-@media (max-width: 480px) {
-  .testimonial_section .slick-slide>div {
-    margin: 0;
   }
 }
