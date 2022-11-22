@@ -55,17 +55,18 @@ $(document).ready(function(){
     speed: 300,
     slidesToShow: 3,
     slidesToScroll: 1,
-    // centerMode: true,
+    centerMode: true,
     // autoplay: true,
     focusOnSelect: true,
     asNavFor: '.main-slide',
     centerPadding: '60px',
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 769,
         settings: {
+          centerMode: false,
           focusOnSelect: false,
-          slidesToShow: 2,
+          slidesToShow: 3,
         }
       },
       {
