@@ -14,6 +14,12 @@ a, a:hover{
   text-decoration: none;
   color: inherit;
 }
+ul {
+  padding: 0;
+}
+ul li {
+  list-style-type: none;
+}
 .gilroy-heavy {
   font-family:'Gilroy-Heavy', sans-serif;
 }
@@ -22,6 +28,9 @@ a, a:hover{
 }
 .gilroy-light {
   font-family:'Gilroy-Light', sans-serif;
+}
+.gilroy-bold {
+  font-family:'Gilroy-Bold', sans-serif;
 }
 
 /* MAIN COLOR PALETTE */
