@@ -55,7 +55,7 @@ $(document).ready(function(){
     speed: 300,
     slidesToShow: 3,
     slidesToScroll: 1,
-    centerMode: true,
+    // centerMode: true,
     // autoplay: true,
     focusOnSelect: true,
     asNavFor: '.main-slide',
