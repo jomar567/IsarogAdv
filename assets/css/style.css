@@ -42,6 +42,9 @@ a {
 .bg-darkblue {
   background-color: #09212D;
 }
+.border-yellow {
+  border: 10px solid #F6AE01;
+}
 .custom-btn {
   background-color: #F6AE01;
   color: #042359;
@@ -151,7 +154,7 @@ header {
   right: 25px;
   z-index: 5;
 }
-.slick-slide>div {
+.destination-section .slick-slide>div {
   padding: 0 15px;
 }
 .carousel-content .slick-prev::before {
@@ -201,7 +204,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: inset 0px 250px 70px rgb(9 33 45 / 65%), inset 0px -200px 150px rgb(9 33 45 / 65%)
+  box-shadow: inset 0px 400px 100px rgb(9 33 45 / 95%), inset 0px -600px 390px rgb(9 33 45 / 95%);
 }
 .hotelAndResort__section .card .card-img-overlay {
   box-shadow: inset 0px 60px 60px rgb(9 33 45 / 65%), inset 0px -90px 30px rgb(9 33 45 / 65%);
@@ -210,8 +213,35 @@ header {
   width: 20%;
   background: linear-gradient(to left, rgba(247,247,49,1) 0%,rgba(255,255,255,0) 90%);
 }
+/* Testimonial Carousel */
+.testimonial_section .slick-slider {
+  margin: 30px auto 0;
+}
+.testimonial_section .slick-slide>div {
+  margin: 0 100px;
+}
+.testimonial_section .thumbnail .slick-slide>div {
+  margin: 0;
+  padding: 0 10px;
+}
+.testimonial_section .main-slide .card-body {
+  border-left: 0;
+}
 @media (max-width: 991px) {
   .search-bar .fa-search {
     left: 0;
+  }
+  .testimonial_section .main-slide .card-body {
+    border-left: 10px solid #F6AE01;
+  }
+}
+@media (max-width: 766px) {
+  .testimonial_section .slick-slide>div {
+    margin: 0 30px;
+  }
+}
+@media (max-width: 480px) {
+  .testimonial_section .slick-slide>div {
+    margin: 0;
   }
 }

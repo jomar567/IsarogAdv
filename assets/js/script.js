@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('.responsive').slick({
+  $('.destination-slider').slick({
     dots: false,
     infinite: true,
     speed: 300,
@@ -33,9 +33,56 @@ $(document).ready(function(){
           // dots: true
         }
       }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
+    ]
+  });
+  
+  // Testimonial Carousel
+  $('.main-slide').slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    fade: true,
+    adaptiveHeight: true,
+    asNavFor: '.thumbnail',
+    responsive: [
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          arrows: false
+        }
+      }
+    ]
+  });
+  $('.thumbnail').slick({
+    dots: false,
+    arrows: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    centerMode: true,
+    focusOnSelect: true,
+    asNavFor: '.main-slide',
+    centerPadding: '60px',
+    responsive: [
+      {
+        breakpoint: 769,
+        settings: {
+          centerMode: false,
+          focusOnSelect: false,
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1
+        }
+      }
     ]
   });
 });
