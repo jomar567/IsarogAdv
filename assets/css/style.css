@@ -10,8 +10,9 @@ body {
   line-height: 1.77;
   -webkit-text-size-adjust: 100%;
 }
-a {
+a, a:hover{
   text-decoration: none;
+  color: inherit;
 }
 .gilroy-heavy {
   font-family:'Gilroy-Heavy', sans-serif;
