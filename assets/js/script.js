@@ -54,8 +54,8 @@ $(document).ready(function(){
     speed: 300,
     slidesToShow: 3,
     slidesToScroll: 1,
-    // autoplay: true,
     centerMode: true,
+    // autoplay: true,
     focusOnSelect: true,
     asNavFor: '.main-slide',
     centerPadding: '60px',
@@ -63,16 +63,13 @@ $(document).ready(function(){
       {
         breakpoint: 768,
         settings: {
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 3
+          focusOnSelect: false,
+          slidesToShow: 2,
         }
       },
       {
         breakpoint: 480,
         settings: {
-          centerMode: true,
-          centerPadding: '40px',
           slidesToShow: 1
         }
       }
