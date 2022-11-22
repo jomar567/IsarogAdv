@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('.responsive').slick({
+  $('.destination-slider').slick({
     dots: false,
     infinite: true,
     speed: 300,
@@ -43,7 +43,7 @@ $(document).ready(function(){
     speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    // autoplay: true,
     fade: true,
     asNavFor: '.thumbnail'
   });
@@ -54,7 +54,7 @@ $(document).ready(function(){
     speed: 300,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
+    // autoplay: true,
     centerMode: true,
     focusOnSelect: true,
     asNavFor: '.main-slide',
