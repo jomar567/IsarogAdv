@@ -136,6 +136,21 @@
   height: 100%;
   background-color: rgba(35,42,48,0.40);
 }
+.navAndTabs .nav a {
+  color: #F6AE01;
+  background-color: #042359;
+  margin: 0 10px;
+}
+.navAndTabs .nav a.active {
+  background-color: #F6AE01;
+  color: #042359;
+}
+.tab-content table tr td, .tab-content ul li {
+  font-family:'Gilroy-Medium', sans-serif;
+}
+.tab-content ul li {
+  list-style-type: disc;
+}
 @media (max-width: 991px) {
   .search-bar .fa-search {
     left: 0;
@@ -147,6 +162,11 @@
 @media (max-width: 766px) {
   .testimonial_section .slick-slide>div {
     margin: 0 30px;
+  }
+}
+@media (max-width: 575px) {
+  .navAndTabs .nav a {
+    margin: 5px 0;
   }
 }
 @media (max-width: 480px) {
