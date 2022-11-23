@@ -8,24 +8,809 @@
   <!-- Font Family -->
   <link href="https://fonts.cdnfonts.com/css/gilroy-bold?styles=20876,20877,20878,20879" rel="stylesheet">
   <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Slick Slider -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+  <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="/assets/css/style.css">
-  <script src="/assets/js/script.js"></script>
+  <link rel="stylesheet" href="/assets/css/isarog_adv_style.css">
 </head>
 <body>
-    <header>
-      <nav>
-
+    <header class="vh-100 landingPage__header mb-5">
+      <nav class="navbar navbar-expand-lg pt-5">
+        <div class="container">
+          <a class="navbar-brand d-flex align-content-center align-items-center px-4" href="#">
+            <img src="/assets/images/Logo.png" alt="Logo" height="50">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="col-4 collapse navbar-collapse justify-content-between px-4" id="navbar">
+            <ul class="navbar-nav mb-lg-0 m-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link active text-white mx-lg-2 gilroy-light">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="/about/about.html" class="nav-link text-white mx-lg-2 gilroy-light">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="tour.html" class="nav-link text-white mx-lg-2 gilroy-light">Tour</a>
+              </li>
+              <li class="nav-item">
+                <a href="hotels.html" class="nav-link text-white mx-lg-2 gilroy-light">Hotels</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link text-white mx-lg-2 gilroy-light">Contact</a>
+              </li>
+            </ul>
+            <div class="search-bar">
+              <input type="text" class="form-control px-md-0 px-lg-3" placeholder="Search">
+              <i class="fa fa-search text-white"></i>
+            </div>
+          </div>
       </nav>
+      <div class="header-content container text-white text-center">
+        <h1>EXPLORE</h1>
+        <h1>CAMARINES SUR</h1>
+        <h3>Discover the Sports and Adventure Capital of the Philippines</h3>
+        <button type="button" class="custom-btn border-0 btn btn-lg mt-5 px-5">
+          Explore Now <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
+        </button>
+      </div>
     </header>
+    <!-- Featured Destination -->
+    <section class="container destination-section py-5">
+      <div class="section-heading left-bordered ms-4 position-relative lh-1 py-2 mb-5">
+        <h1 class="text-blue">FEATURED DESTINATION</h1>
+        <p class="gilroy-medium">Take a look at the best places in Cam Sur</p>
+      </div>
+      <!-- Destination Carousel -->
+      <div class="carousel-content mb-5">
+        <div class="row">
+          <div class="slider destination-slider">
+            <div class="rounded-4">
+              <div class="card">
+                <img class="img-fluid" alt="WaterSports Complex" src="assets/images/watersports.png">
+                <div class="card-body lh-1">
+                  <h4 class="card-title text-blue">WaterSports Complex</h4>
+                  <p class="card-text">Naga City, Camarines Sur</p>
+                  <a href="/tour/waterSports.html">
+                    <button class="btn custom-btn border-0">
+                      Explore More
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="rounded-4">
+              <div class="card">
+                <img class="img-fluid" alt="Lahos Island" src="assets/images/LahosIsland.png">
+                <div class="card-body lh-1">
+                  <h4 class="card-title text-blue">Lahos Island</h4>
+                  <p class="card-text">Caramoan, Camarines Sur</p>
+                  <button class="btn custom-btn border-0">Explore More</button>
+                </div>
+              </div>
+            </div>
+            <div class="rounded-4">
+              <div class="card">
+                <img class="img-fluid" alt="Aguirangan Island" src="assets/images/AguiranganIsland.png">
+                <div class="card-body lh-1">
+                  <h4 class="card-title text-blue">Aguirangan Island</h4>
+                  <p class="card-text">Presentacion, Camarines Sur</p>
+                  <button class="btn custom-btn border-0">Explore More</button>
+                </div>
+              </div>
+            </div>
+            <div class="rounded-4">
+              <div class="card">
+                <img class="img-fluid" alt="100%x280" src="assets/images/SirumaBeach.png">
+                <div class="card-body lh-1">
+                  <h4 class="card-title text-blue">Siruma Beach</h4>
+                  <p class="card-text">Siruma, Camarines Sur</p>
+                  <button class="btn custom-btn border-0">Explore More</button>
+                </div>
+              </div>
+            </div>
+            <div class="rounded-4">
+              <div class="card">
+                <img class="img-fluid" alt="100%x280" src="assets/images/AtulayanIsland.png">
+                <div class="card-body lh-1">
+                  <h4 class="card-title text-blue">Atulayan Island</h4>
+                  <p class="card-text">Sagnay, Camarines Sur</p>
+                  <button class="btn custom-btn border-0">Explore More</button>
+                </div>
+              </div>
+            </div>
+            <div class="rounded-4">
+              <div class="card">
+                <img class="img-fluid" alt="100%x280" src="assets/images/MatukadIsland.png">
+                <div class="card-body lh-1">
+                  <h4 class="card-title text-blue">Matukad Island</h4>
+                  <p class="card-text">Caramoan, Camarines Sur</p>
+                  <button class="btn custom-btn border-0">Explore More</button>
+                </div>
+              </div>
+            </div>
+            <div class="rounded-4">
+              <div class="card">
+                <img class="img-fluid" alt="100%x280" src="assets/images/CagbalinadIsland.png">
+                <div class="card-body lh-1">
+                  <h4 class="card-title text-blue">Cagbalinad Island</h4>
+                  <p class="card-text">Caramoan, Camarines Sur</p>
+                  <button class="btn custom-btn border-0">Explore More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Tour Packages -->
+    <section class="container top-tour__packages py-5">
+      <div class="section-heading right-bordered me-4 text-end position-relative lh-1 py-2 mb-5">
+        <h1 class="text-blue">TOP TOUR PACKAGES</h1>
+        <p class="gilroy-medium">We offer the best tour packages that fits all your needs</p>
+      </div>
+
+      <div class="tour-package__content">
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <a href="">
+              <h5 class="text-muted">CARAMOAN, CAM SUR</h5>
+              <div class="card text-white border-0">
+                <img src="/assets/images/CaramoanTour.png" height="250" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h3 class="card-title text-end lh-1 gilroy-heavy">3D <br> 2N</h3>
+                  <div class="position-absolute bottom-0 lh-1">
+                    <h4 class="m-0">ISLAND HOPING</h4>
+                    <p class="text-yellow mb-3">Starts from PHP. 1,699.00</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <a href="">
+              <h5 class="text-muted">SIRUMA, CAM SUR</h5>
+              <div class="card text-white border-0">
+                <img src="/assets/images/SirumaBeach.png" height="250" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h3 class="card-title text-end lh-1 gilroy-heavy">2D <br> 1N</h3>
+                  <div class="position-absolute bottom-0 lh-1">
+                    <h4 class="m-0">SIRUMA TOUR (RESORT)</h4>
+                    <p class="text-yellow mb-3">Starts from PHP. 1,899.00</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <a href="">
+              <h5 class="text-muted">GARCHITORENA, CAM SUR</h5>
+              <div class="card text-white border-0">
+                <img src="/assets/images/GarchiTour.png" height="250" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h3 class="card-title text-end lh-1 gilroy-heavy">3D <br> 2N</h3>
+                  <div class="position-absolute bottom-0 lh-1">
+                    <h4 class="m-0">GARCHITORENA TOUR</h4>
+                    <p class="text-yellow mb-3">Starts from PHP. 2,900.00</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <h5 class="text-muted">PRESENTACION, CAM SUR</h5>
+            <div class="card text-white border-0">
+              <img src="/assets/images/AguiranganIsland.png" height="250" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h3 class="card-title text-end lh-1 gilroy-heavy">2D <br> 1N</h3>
+                <div class="position-absolute bottom-0 lh-1">
+                  <h4 class="m-0">AGIURANGAN ISLAND</h4>
+                  <p class="text-yellow mb-3">Starts from PHP. 1,599.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <h5 class="text-muted">NAGA, CAM SUR</h5>
+            <div class="card text-white border-0">
+              <img src="/assets/images/NagaTour.png" height="250" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h3 class="card-title text-end lh-1 gilroy-heavy">2D <br>1N</h3>
+                <div class="position-absolute bottom-0 lh-1">
+                  <h4 class="m-0">NAGA CITY TOUR</h4>
+                  <p class="text-yellow mb-3">Starts from PHP. 2,499.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <h5 class="text-muted">SAGNAY, CAM SUR</h5>
+            <div class="card text-white border-0">
+              <img src="/assets/images/AtulayanIsland.png" height="250" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h3 class="card-title text-end lh-1 gilroy-heavy">3D <br> 2N</h3>
+                <div class="position-absolute bottom-0 lh-1">
+                  <h4 class="m-0">ATULAYAN TOUR</h4>
+                  <p class="text-yellow mb-3">Starts from PHP. 2,999.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="custom-btn border-0 d-block m-auto btn btn-lg mt-5 px-5">
+          View All
+        </button>
+      </div>
+    </section>
+
+    <!-- Hotel and Resorts -->
+    <section class="hotelAndResort__section">
+      <div class="container py-5">
+        <div class="section-heading left-bordered ms-4 position-relative lh-1 py-2 mb-5">
+          <h1 class="text-white">HOTEL & RESORTS</h1>
+          <p class="text-white gilroy-medium">Find the best Hotel & Resort deals for your next staycation</p>
+        </div>
+  
+        <div class="row g-5">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <a href="">
+              <div class="card text-white border-0">
+                <img src="/assets/images/TogaweCoveResort.png" height="300" class="card-img" alt="...">
+                <div class="card-img-overlay pe-0">
+                  <h2><span class="badge gilroy-heavy text-end rounded-0 bg-yellow text-blue float-end">4.9</span></h4>
+                  <div class="position-absolute bottom-0 lh-1">
+                    <h5 class="m-0">Togawe Cove Resort</h5>
+                    <p class=" mb-1 gilroy-light"><small>Caramoan, Camarines Sur</small></p>
+                    <span>
+                      <i class="fa fa-star text-yellow mb-3" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow mb-3" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow mb-3" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow mb-3" aria-hidden="true"></i>
+                      <i class="fa fa-star-half-o text-yellow mb-3" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="d-grid gap-2 col-6 mx-auto mt-3">
+              <button class="btn custom-btn border-0" type="button">CHECK PRICES</button>
+              <button class="btn custom-btn__reversed border-0" type="button">BOOK NOW</button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <a href="">
+              <div class="card text-white border-0">
+                <img src="/assets/images/VillaCaceresHotel.png" height="300" class="card-img" alt="...">
+                <div class="card-img-overlay pe-0">
+                  <h2><span class="badge gilroy-heavy text-end rounded-0 bg-yellow text-blue float-end">5.0</span></h4>
+                  <div class="position-absolute bottom-0 lh-1">
+                    <h5 class="m-0">Villa Caceres Hotel</h5>
+                    <p class=" mb-1 gilroy-light"><small>Naga City, Camarines Sur</small></p>
+                    <span>
+                      <i class="fa fa-star text-yellow mb-3" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow mb-3" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow mb-3" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow mb-3" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow mb-3" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="d-grid gap-2 col-6 mx-auto mt-3">
+              <button class="btn custom-btn border-0" type="button">CHECK PRICES</button>
+              <button class="btn custom-btn__reversed border-0" type="button">BOOK NOW</button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <a href="">
+              <div class="card text-white border-0">
+                <img src="/assets/images/StarMarkHotel.jpg" height="300" class="card-img" alt="...">
+                <div class="card-img-overlay pe-0">
+                  <h2><span class="badge gilroy-heavy text-end rounded-0 bg-yellow text-blue float-end">4.9</span></h4>
+                  <div class="position-absolute bottom-0 lh-1">
+                    <h5 class="m-0">Star Mark Hotel</h5>
+                    <p class=" mb-1 gilroy-light"><small>Naga City, Camarines Sur</small></p>
+                    <span>
+                      <i class="fa fa-star text-yellow mb-3" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow mb-3" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow mb-3" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow mb-3" aria-hidden="true"></i>
+                      <i class="fa fa-star-half-o text-yellow mb-3" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="d-grid gap-2 col-6 mx-auto mt-3">
+              <button class="btn custom-btn border-0" type="button">CHECK PRICES</button>
+              <button class="btn custom-btn__reversed border-0" type="button">BOOK NOW</button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card text-white border-0">
+              <img src="/assets/images/Casita-Mia-Bed.jpg" height="300" class="card-img" alt="...">
+              <div class="card-img-overlay pe-0">
+                <h2><span class="badge gilroy-heavy text-end rounded-0 bg-yellow text-blue float-end">5.0</span></h4>
+                <div class="position-absolute bottom-0 lh-1">
+                  <h5 class="m-0">Casita Mia Hotel</h5>
+                  <p class=" mb-1 gilroy-light"><small>Caramoan, Camarines Sur</small></p>
+                  <span>
+                    <i class="fa fa-star text-yellow mb-3" aria-hidden="true"></i>
+                    <i class="fa fa-star text-yellow mb-3" aria-hidden="true"></i>
+                    <i class="fa fa-star text-yellow mb-3" aria-hidden="true"></i>
+                    <i class="fa fa-star text-yellow mb-3" aria-hidden="true"></i>
+                    <i class="fa fa-star text-yellow mb-3" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto mt-3">
+              <button class="btn custom-btn border-0" type="button">CHECK PRICES</button>
+              <button class="btn custom-btn__reversed border-0" type="button">BOOK NOW</button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card text-white border-0">
+              <img src="/assets/images/RegalPlazaHotel.png" height="300" class="card-img" alt="...">
+              <div class="card-img-overlay pe-0">
+                <h2><span class="badge gilroy-heavy text-end rounded-0 bg-yellow text-blue float-end">4.2</span></h4>
+                <div class="position-absolute bottom-0 lh-1">
+                  <h5 class="m-0">Regal Plaza Hotel</h5>
+                  <p class=" mb-1 gilroy-light"><small>Nabua, Camarines Sur</small></p>
+                  <span>
+                    <i class="fa fa-star text-yellow mb-3" aria-hidden="true"></i>
+                    <i class="fa fa-star text-yellow mb-3" aria-hidden="true"></i>
+                    <i class="fa fa-star text-yellow mb-3" aria-hidden="true"></i>
+                    <i class="fa fa-star text-yellow mb-3" aria-hidden="true"></i>
+                    <i class="fa fa-star-o text-yellow mb-3" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto mt-3">
+              <button class="btn custom-btn border-0" type="button">CHECK PRICES</button>
+              <button class="btn custom-btn__reversed border-0" type="button">BOOK NOW</button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card text-white border-0">
+              <img src="/assets/images/BluePaseo.png" height="300" class="card-img" alt="...">
+              <div class="card-img-overlay pe-0">
+                <h2><span class="badge gilroy-heavy text-end rounded-0 bg-yellow text-blue float-end">4.8</span></h4>
+                <div class="position-absolute bottom-0 lh-1">
+                  <h5 class="m-0">Blue Paseo Grande Inn</h5>
+                  <p class=" mb-1 gilroy-light"><small>Naga City, Camarines Sur</small></p>
+                  <span>
+                    <i class="fa fa-star text-yellow mb-3" aria-hidden="true"></i>
+                    <i class="fa fa-star text-yellow mb-3" aria-hidden="true"></i>
+                    <i class="fa fa-star text-yellow mb-3" aria-hidden="true"></i>
+                    <i class="fa fa-star text-yellow mb-3" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-empty text-yellow mb-3" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto mt-3">
+              <button class="btn custom-btn border-0" type="button">CHECK PRICES</button>
+              <button class="btn custom-btn__reversed border-0" type="button">BOOK NOW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section class="container py-5 testimonial_section">
+      <div class="section-heading right-bordered me-4 text-end position-relative lh-1 py-2 my-5">
+        <h1 class="text-blue">HAPPY TRAVELERS</h1>
+        <p class="gilroy-medium">Hear it from our satisfied clients</p>
+      </div>
+
+      <!-- Testimonial Carousel -->
+      <div class="carousel-content mb-5">
+        <div class="row">
+          <!-- MAIN SLIDER -->
+          <div class="slider main-slide">
+            <div class="card border-0">
+              <div class="row g-0 justify-content-center">
+                <div class="col-lg-4 col-md-12 d-none d-x d-lg-block">
+                  <img src="/assets/images/mainSlideReviews.png" class="img-fluid h-100 rounded-0" alt="...">
+                </div>
+                <div class="col-lg-7 col-md-12">
+                  <div class="card-body border-yellow  p-0 h-100">
+                    <div class="row h-100">
+                      <div class="col-md-4 col-sm-12 d-flex justify-content-center">
+                        <i class="fa fa-5x fa-quote-left text-yellow pt-4" aria-hidden="true"></i>
+                      </div>
+                      <div class="col-md-8 col-sm-12 p-3 pe-4">
+                        <p class="card-text text-blue text-">I was extremely satisfied with IsarogAdventure Services.
+                          Mr Clado, the owner, has proven to be very courteous and helpful from the very beginning, 
+                          trying to organize at the best our trip to Caramoan in the 4 days available.</p>
+                        <p class="card-text gilroy-light">
+                          The guides and drivers are very professional and friendly, the accomodations simply superb. 
+                          I found the service and response of this travel agency to be extremely excellent! 
+                        </p>
+                        <p class="text-end text-blue mb-0"> - C. Lim</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card border-0">
+              <div class="row g-0 justify-content-center">
+                <div class="col-lg-4 col-md-12 d-none d-x d-lg-block">
+                  <img src="/assets/images/mainSlideReviews1.png" class="img-fluid h-100 rounded-0" alt="...">
+                </div>
+                <div class="col-lg-7 col-md-12">
+                  <div class="card-body border-yellow  p-0 h-100">
+                    <div class="row h-100">
+                      <div class="col-md-4 col-sm-12 d-flex justify-content-center">
+                        <i class="fa fa-5x fa-quote-left text-yellow pt-4" aria-hidden="true"></i>
+                      </div>
+                      <div class="col-md-8 col-sm-12 p-3 pe-4">
+                        <p class="card-text text-blue text-">Thank you IsarogAdventure
+                          for the wonderful and hassle 
+                          free experience in our first trip
+                          to Camarines Sur!</p>
+                        <p class="card-text gilroy-light">
+                          The staffs are very accommodating from Naga
+                          airport and back...Thanks again for the
+                          awesome tour!
+                        </p>
+                        <p class="text-end text-blue mb-0"> - A. Salvacion</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card border-0">
+              <div class="row g-0 justify-content-center">
+                <div class="col-lg-4 col-md-12 d-none d-x d-lg-block">
+                  <img src="/assets/images/mainSlideReviews2.png" class="img-fluid h-100 rounded-0" alt="...">
+                </div>
+                <div class="col-lg-7 col-md-12">
+                  <div class="card-body border-yellow  p-0 h-100">
+                    <div class="row h-100">
+                      <div class="col-md-4 col-sm-12 d-flex justify-content-center">
+                        <i class="fa fa-5x fa-quote-left text-yellow pt-4" aria-hidden="true"></i>
+                      </div>
+                      <div class="col-md-8 col-sm-12 p-3 pe-4">
+                        <p class="card-text text-blue text-">I used to live in Naga wayback in 2010 
+                          but for some reasons I never really had the chance to see all of its beautiful 
+                          attractions. After 5 years I am back & just as glad to be toured by @IsarogAdventure.
+                          As a hardcore traveler, I can't be more happy than being toured with ease & fun. </p>
+                        <p class="card-text gilroy-light">
+                          They're quick to respond to inquiries & really very caring. A special shoutout to my
+                          fantastic guide, Glen. You guys rock! You are among that defines.
+                        </p>
+                        <p class="text-end text-blue mb-0"> - C. Floriano</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card border-0">
+              <div class="row g-0 justify-content-center">
+                <div class="col-lg-4 col-md-12 d-none d-x d-lg-block">
+                  <img src="/assets/images/mainSlideReviews3.png" class="img-fluid h-100 rounded-0" alt="...">
+                </div>
+                <div class="col-lg-7 col-md-12">
+                  <div class="card-body border-yellow  p-0 h-100">
+                    <div class="row h-100">
+                      <div class="col-md-4 col-sm-12 d-flex justify-content-center">
+                        <i class="fa fa-5x fa-quote-left text-yellow pt-4" aria-hidden="true"></i>
+                      </div>
+                      <div class="col-md-8 col-sm-12 p-3 pe-4">
+                        <p class="card-text text-blue text-">Great service! Will definitely book again soon.</p>
+                        <p class="card-text gilroy-light">
+                          Accommodating and cheaper compared to other agency! The best of the bests!
+                        </p>
+                        <p class="text-end text-blue mb-0"> - G. Beltrn</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card border-0">
+              <div class="row g-0 justify-content-center">
+                <div class="col-lg-4 col-md-12 d-none d-x d-lg-block">
+                  <img src="/assets/images/mainSlideReviews4.png" class="img-fluid h-100 rounded-0" alt="...">
+                </div>
+                <div class="col-lg-7 col-md-12">
+                  <div class="card-body border-yellow  p-0 h-100">
+                    <div class="row h-100">
+                      <div class="col-md-4 col-sm-12 d-flex justify-content-center">
+                        <i class="fa fa-5x fa-quote-left text-yellow pt-4" aria-hidden="true"></i>
+                      </div>
+                      <div class="col-md-8 col-sm-12 p-3 pe-4">
+                        <p class="card-text text-blue text-">Definitely your limo-with-chauffeur kind 
+                          of service when it comes to traveling. From undecided armchair adventurers to 
+                          seasoned globe circumnavigators, they can tailor a suitable itinerary in a zap 
+                          and with a smile. </p>
+                        <p class="card-text gilroy-light">
+                          It comes naturally from the globetrotting owners who provide personal assistance 
+                          to individual or group inquirers. Bicol has just got plugged into the world.
+                        </p>
+                        <p class="text-end text-blue mb-0"> - K. Felipe</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card border-0">
+              <div class="row g-0 justify-content-center">
+                <div class="col-lg-4 col-md-12 d-none d-x d-lg-block">
+                  <img src="/assets/images/mainSlideReviews5.png" class="img-fluid h-100 rounded-0" alt="...">
+                </div>
+                <div class="col-lg-7 col-md-12">
+                  <div class="card-body border-yellow  p-0 h-100">
+                    <div class="row h-100">
+                      <div class="col-md-4 col-sm-12 d-flex justify-content-center">
+                        <i class="fa fa-5x fa-quote-left text-yellow pt-4" aria-hidden="true"></i>
+                      </div>
+                      <div class="col-md-8 col-sm-12 p-3 pe-4">
+                        <p class="card-text text-blue text-">For someone who’s used to the “DIY” type 
+                          of traveling, traveling through a travel agency was such a welcome change. 
+                          Aside from the stressed free travel, what I loved about it were the new people 
+                          that we got to interact with, the beautiful places we visited, the local delicacies 
+                          we had the pleasure of trying and the new infos, trivias, cultures we’ve learned 
+                          about Cam Sur.</p>
+                        <p class="card-text gilroy-light">
+                          They say that you’ll never forget your firsts, and I’m glad that it was with this travel
+                          agency and with this group of people. Thank you everyone, till next time.♥️
+                        </p>
+                        <p class="text-end text-blue mb-0"> - V. Armea</p>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- SLIDER THUMBNAIL -->
+        <div class="row">
+          <div class='slider thumbnail'>
+            <div class="card border-0">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="/assets/images/mainSlideReviews.png" class="h-100 w-100 rounded-0" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body h-100">
+                    <p class="card-text mb-0 text-blue">C. Lim</p>
+                    <span>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="card-footer bg-white border-0 rounded-0 p-0 gilroy-light lh-base mt-2">
+                  <p class="m-0">I found the service and response of this travel agency to be extremely excellent! </p>
+                </div>
+              </div>
+            </div>
+            <div class="card border-0">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="/assets/images/mainSlideReviews1.png" class="h-100 w-100 rounded-0" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body h-100">
+                    <p class="card-text mb-0 text-blue">A. Salvacion</p>
+                    <span>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="card-footer bg-white border-0 rounded-0 p-0 gilroy-light lh-base mt-2">
+                  <p class="m-0">
+                    The staffs are very accommodating from Naga
+                    airport and back...Thanks again for the
+                    awesome tour!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card border-0">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="/assets/images/mainSlideReviews2.png" class="h-100 w-100 rounded-0" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body h-100">
+                    <p class="card-text mb-0 text-blue">C. Floriano</p>
+                    <span>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="card-footer bg-white border-0 rounded-0 p-0 gilroy-light lh-base mt-2">
+                  <p class="m-0">
+                    They're quick to respond to inquiries &amp; really very caring. A special shoutout to my
+                    fantastic guide, Glen. You guys rock! You are among that defines.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card border-0">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="/assets/images/mainSlideReviews3.png" class="h-100 w-100 rounded-0" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body h-100">
+                    <p class="card-text mb-0 text-blue">G. Beltrn</p>
+                    <span>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="card-footer bg-white border-0 rounded-0 p-0 gilroy-light lh-base mt-2">
+                  <p class="m-0">
+                    Accommodating and cheaper compared to other agency! The best of the bests!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card border-0">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="/assets/images/mainSlideReviews4.png" class="h-100 w-100 rounded-0" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body h-100">
+                    <p class="card-text mb-0 text-blue">K. Felipe</p>
+                    <span>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="card-footer bg-white border-0 rounded-0 p-0 gilroy-light lh-base mt-2">
+                  <p class="m-0">
+                    It comes naturally from the globetrotting owners who provide personal assistance 
+                    to individual or group inquirers. Bicol has just got plugged into the world.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card border-0">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="/assets/images/mainSlideReviews5.png" class="h-100 w-100 rounded-0" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body h-100">
+                    <p class="card-text mb-0 text-blue">V. Armea</p>
+                    <span>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                      <i class="fa fa-star text-yellow" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="card-footer bg-white border-0 rounded-0 p-0 gilroy-light lh-base mt-2">
+                  <p class="m-0">
+                    They say that you’ll never forget your firsts, and I’m glad that it was with this travel
+                    agency and with this group of people. Thank you everyone, till next time.♥️
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- INSERT FOOTER CODE -->
-    <footer>
-
+    <footer class="container-fluid pt-5 bg-dark text-white">
+      <img src="/assets/images/Logo.png" alt="" class="m-auto d-block pb-4">
+      <div class="container border-top pt-4">
+        <div class="row">
+          <div class="col">
+            <h5 class="text-yellow">Contact us</h5>
+            <ul>
+              <li>
+                <i class="fa fa-map-marker fs-5 me-2 text-yellow" aria-hidden="true"></i>
+                San Jose, Camarines Sur
+              </li>
+              <li>
+                <i class="fa fa-phone fs-5 me-2 text-yellow" aria-hidden="true"></i>
+                (+63) 901 008 0987
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <h5 class="text-yellow">Customer Care</h5>
+            <ul>
+              <li>
+                <a href="#">FAQs</a>
+              </li>
+              <li>
+                <a href="#">
+                  How to Book Payment Method
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Ask a Question
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <h5 class="text-yellow">Information</h5>
+            <ul>
+              <li>
+                <a href="#">
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Terms and Condition
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Sitemap
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <h5 class="text-yellow">About</h5>
+            <ul>
+              <li><strong>Lorem Ipsum dolor sit amet, consectetur adipiscing elit</strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col pt-4 text-center text-muted bg-light">
+          <p class="gilroy-medium"><small>Copyright©2022 Isarog Adventure. All Rights Reserved</small></p>
+        </div>
+      </div>
     </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-  crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/script.js"></script>
 </body>
 </html>
