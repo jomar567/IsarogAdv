@@ -157,3 +157,8 @@ header .navbar .navbar-nav .nav-item .nav-link:hover {
     left: 0;
   }
 }
+.navbar {
+  background-color: transparent;
+  z-index: 999;
+  backdrop-filter: blur(40px);
+}
