@@ -13,7 +13,9 @@
   transform: translate(-50%, -50%);
 }
 .landingPage__header .header-content h1,
-.waterSports__header .header-content h1 {
+.waterSports__header .header-content h1,
+.about__header .header-content h1,
+.lahosIsland__header .header-content h1 {
   font-size: 8vw;
   text-shadow: 0px 2px 3px rgba(9, 33, 45, 0.65);
 }
@@ -101,8 +103,11 @@
 }
 
 
-/* WATER SPORTS STYLE */
-.waterSports__header .header-content .overlay-bg {
+/* TOUR PAGE STYLE */
+.waterSports__header .header-content .overlay-bg,
+.about__header .header-content .overlay-bg,
+.lahosIsland__header .header-content .overlay-bg,
+.tourPackages-slider .slick-slide .card-body {
   height: 100%;
   position: absolute;
   width: 100%;
@@ -111,10 +116,40 @@
   transform: translate(-50%, -50%);
   background-color: rgba(35,42,48,0.40);
 }
-.waterSports__header .header-content h1 {
+.waterSports__header .header-content h1,
+.about__header .header-content h1,
+.lahosIsland__header .header-content h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+/* Tour Packages */
+#tourPackagesSlider .carousel-inner .carousel-caption {
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: rgba(35,42,48,0.40);
+}
+.navAndTabs .nav a {
+  color: #F6AE01;
+  background-color: #042359;
+  margin: 0 10px;
+}
+.navAndTabs .nav a.active {
+  background-color: #F6AE01;
+  color: #042359;
+}
+.tab-content table tr td, .tab-content ul li {
+  font-family:'Gilroy-Medium', sans-serif;
+}
+.tab-content ul li {
+  list-style-type: disc;
 }
 @media (max-width: 991px) {
   .search-bar .fa-search {
@@ -127,6 +162,11 @@
 @media (max-width: 766px) {
   .testimonial_section .slick-slide>div {
     margin: 0 30px;
+  }
+}
+@media (max-width: 575px) {
+  .navAndTabs .nav a {
+    margin: 5px 0;
   }
 }
 @media (max-width: 480px) {
