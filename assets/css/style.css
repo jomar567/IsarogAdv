@@ -145,6 +145,7 @@ ul li {
 /* Navbar */
 .navbar {
   z-index: 2;
+  padding-top: 40px;
 }
 header .navbar .navbar-nav .nav-item .nav-link.active {
   font-weight: bold;
@@ -228,7 +229,8 @@ header .navbar .navbar-nav .nav-item .nav-link:hover {
   }
   .navbar {
     background-color: transparent;
-    z-index: 999;
+    z-index: 1000;
     backdrop-filter: blur(40px);
+    padding-top: 10px;
   }
 }
