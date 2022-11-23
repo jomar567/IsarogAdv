@@ -106,7 +106,8 @@
 /* TOUR PAGE STYLE */
 .waterSports__header .header-content .overlay-bg,
 .about__header .header-content .overlay-bg,
-.lahosIsland__header .header-content .overlay-bg {
+.lahosIsland__header .header-content .overlay-bg,
+.tourPackages-slider .slick-slide .card-body {
   height: 100%;
   position: absolute;
   width: 100%;
@@ -122,6 +123,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* Tour Packages */
+/* .tourPackages-slider .slick-slide .card-body {
+  display: fle;
+} */
 @media (max-width: 991px) {
   .search-bar .fa-search {
     left: 0;
