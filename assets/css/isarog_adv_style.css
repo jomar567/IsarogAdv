@@ -156,6 +156,38 @@
 .togaweResort_context .card{
   box-shadow: 0px 4px 10px rgb(3 18 26 / 15%);
 }
+
+/* Feature Color Palette */
+.colorPallete {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  right: 0%;
+  left: -220px;
+  top: 40%;
+  transition: left .3s ease-out;
+  z-index: 999;
+}
+.colorPallete.active {
+  left: 0%;
+}
+.paintHandler {
+  position: absolute;
+  top: 0;
+  left: 230px;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.colorPallete_context {
+  position: absolute;
+  background: #09212D;
+  width: auto;
+  height: auto;
+  border-radius: 0px 0 8px 0px;
+}
+
 @media (max-width: 991px) {
   .search-bar .fa-search {
     left: 0;
