@@ -125,9 +125,17 @@
 }
 
 /* Tour Packages */
-/* .tourPackages-slider .slick-slide .card-body {
-  display: fle;
-} */
+#tourPackagesSlider .carousel-inner .carousel-caption {
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: rgba(35,42,48,0.40);
+}
 @media (max-width: 991px) {
   .search-bar .fa-search {
     left: 0;

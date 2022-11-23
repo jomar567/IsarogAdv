@@ -85,17 +85,4 @@ $(document).ready(function(){
       }
     ]
   });
-
-  // TOUR PACKAGES SLIDER
-  $('.tourPackages-slider').slick({
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    // autoplay: true,
-    arrows: false,
-    fade: true,
-    cssEase: 'linear'
-  });
 });
