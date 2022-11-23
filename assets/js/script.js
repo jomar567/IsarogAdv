@@ -7,6 +7,14 @@ function showHidePaintHandler() {
   colorPallete.classList.toggle('active');
 }
 
+function flatPalette() {
+  $('.custom-btn').removeClass('custom-btn').addClass('custom-flat__btn');
+  $('.custom-btn__reversed').removeClass('custom-btn__reversed').addClass('custom-flat__btn__reversed');
+  $('.text-blue').removeClass('text-blue').addClass('text-flat__darkViolet');
+  $('.text-yellow').removeClass('text-yellow').addClass('text-flat__yellow');
+  $('.border-yellow').removeClass('text-blue').addClass('border-flat__darkViolet');
+}
+
 $('.destination-slider').slick({
   dots: false,
   infinite: true,
