@@ -71,6 +71,76 @@ ul li {
   background-color: #F6AE01;
   color: #042359;
 }
+/* Flat Color Palette */
+.text-flat__darkViolet {
+  color: #462446;
+}
+.bg-flat__darkViolet {
+  background-color: #462446;
+}
+.text-flat__yellow {
+  color: #ffc153;
+}
+.bg-flat__yellow {
+  background-color: #ffc153;
+}
+.text-flat__violet {
+  color: #462446;
+}
+.bg-flat__violet {
+  background-color: #462446;
+}
+.border-flat__darkViolet {
+  border: 10px solid #462446;
+}
+.custom-flat__btn {
+  background-color: #ffc153;
+  color: #462446;
+}
+.custom-flat__btn:hover {
+  background-color: #462446;
+  color: #ffc153;
+}
+.custom-flat__btn__reversed {
+  background-color: #462446;
+  color: #ffc153;
+}
+.custom-flat__btn__reversed:hover {
+  background-color: #ffc153;
+  color: #462446;
+}
+/* Nature Color Palette */
+.text-nature__green {
+  color: #15594D;
+}
+.bg-nature__green {
+  background-color: #15594D;
+}
+.text-nature__yellowOrange {
+  color: #F69651;
+}
+.bg-nature__yellowOrange {
+  background-color: #F69651;
+}
+.border-nature__yellowOrange {
+  border: 10px solid #F69651;
+}
+.custom-nature__btn {
+  background-color: #F69651;
+  color: #15594D;
+}
+.custom-nature__btn:hover {
+  background-color: #15594D;
+  color: #F69651;
+}
+.custom-nature__btn__reversed {
+  background-color: #15594D;
+  color: #F69651;
+}
+.custom-nature__btn__reversed:hover {
+  background-color: #F69651;
+  color: #15594D;
+}
 
 /* Navbar */
 .navbar {
