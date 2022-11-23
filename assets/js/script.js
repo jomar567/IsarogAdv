@@ -8,11 +8,18 @@ function showHidePaintHandler() {
 }
 
 function flatPalette() {
-  $('.custom-btn').removeClass('custom-btn').addClass('custom-flat__btn');
-  $('.custom-btn__reversed').removeClass('custom-btn__reversed').addClass('custom-flat__btn__reversed');
-  $('.text-blue').removeClass('text-blue').addClass('text-flat__darkViolet');
-  $('.text-yellow').removeClass('text-yellow').addClass('text-flat__yellow');
-  $('.border-yellow').removeClass('text-blue').addClass('border-flat__darkViolet');
+  $('.custom-btn, .custom-nature__btn').removeClass('custom-btn custom-nature__btn').addClass('custom-flat__btn');
+  $('.custom-btn__reversed, .custom-nature__btn__reversed').removeClass('custom-btn__reversed custom-nature__btn__reversed').addClass('custom-flat__btn__reversed');
+  $('.text-blue, .text-nature__green').removeClass('text-blue text-nature__green').addClass('text-flat__darkViolet');
+  $('.text-yellow, .text-nature__yellowOrange').removeClass('text-yellow text-nature__yellowOrange').addClass('text-flat__yellow');
+  $('.border-yellow, .border-nature__yellowOrange').removeClass('.border-yellow border-nature__yellowOrange').addClass('border-flat__darkViolet');
+}
+function naturePalette() {
+  $('.custom-btn, .custom-flat__btn').removeClass('custom-btn custom-flat__btn').addClass('custom-nature__btn');
+  $('.custom-btn__reversed, .custom-flat__btn__reversed').removeClass('custom-btn__reversed custom-flat__btn__reversed').addClass('custom-nature__btn__reversed');
+  $('.text-blue, .text-flat__darkViolet').removeClass('text-blue text-flat__darkViolet').addClass('text-nature__green');
+  $('.text-yellow, .text-flat__yellow').removeClass('text-yellow text-flat__yellow').addClass('text-nature__yellowOrange');
+  $('.border-yellow, .border-flat__darkViolet').removeClass('border-yellow border-flat__darkViolet').addClass('border-nature__yellowOrange');
 }
 
 $('.destination-slider').slick({
