@@ -8,18 +8,18 @@ function showHidePaintHandler() {
 }
 
 function flatPalette() {
-  $('.custom-btn, .custom-nature__btn').removeClass('custom-btn custom-nature__btn').addClass('custom-flat__btn');
-  $('.custom-btn__reversed, .custom-nature__btn__reversed').removeClass('custom-btn__reversed custom-nature__btn__reversed').addClass('custom-flat__btn__reversed');
-  $('.text-blue, .text-nature__green').removeClass('text-blue text-nature__green').addClass('text-flat__darkViolet');
-  $('.text-yellow, .text-nature__yellowOrange').removeClass('text-yellow text-nature__yellowOrange').addClass('text-flat__yellow');
-  $('.border-yellow, .border-nature__yellowOrange').removeClass('.border-yellow border-nature__yellowOrange').addClass('border-flat__darkViolet');
+  $('.custom-btn, .custom-summer__btn').removeClass('custom-btn custom-summer__btn').addClass('custom-flat__btn');
+  $('.custom-btn__reversed, .custom-summer__btn__reversed').removeClass('custom-btn__reversed custom-summer__btn__reversed').addClass('custom-flat__btn__reversed');
+  $('.text-blue, .text-summer__green').removeClass('text-blue text-summer__green').addClass('text-flat__darkViolet');
+  $('.text-yellow, .text-summer__yellowGreen').removeClass('text-yellow text-summer__yellowGreen').addClass('text-flat__yellow');
+  $('.border-yellow, .border-summer__yellowGreen').removeClass('.border-yellow border-summer__yellowGreen').addClass('border-flat__darkViolet');
 }
-function naturePalette() {
-  $('.custom-btn, .custom-flat__btn').removeClass('custom-btn custom-flat__btn').addClass('custom-nature__btn');
-  $('.custom-btn__reversed, .custom-flat__btn__reversed').removeClass('custom-btn__reversed custom-flat__btn__reversed').addClass('custom-nature__btn__reversed');
-  $('.text-blue, .text-flat__darkViolet').removeClass('text-blue text-flat__darkViolet').addClass('text-nature__green');
-  $('.text-yellow, .text-flat__yellow').removeClass('text-yellow text-flat__yellow').addClass('text-nature__yellowOrange');
-  $('.border-yellow, .border-flat__darkViolet').removeClass('border-yellow border-flat__darkViolet').addClass('border-nature__yellowOrange');
+function summerPalette() {
+  $('.custom-btn, .custom-flat__btn').removeClass('custom-btn custom-flat__btn').addClass('custom-summer__btn');
+  $('.custom-btn__reversed, .custom-flat__btn__reversed').removeClass('custom-btn__reversed custom-flat__btn__reversed').addClass('custom-summer__btn__reversed');
+  $('.text-blue, .text-flat__darkViolet').removeClass('text-blue text-flat__darkViolet').addClass('text-summer__green');
+  $('.text-yellow, .text-flat__yellow').removeClass('text-yellow text-flat__yellow').addClass('text-summer__yellowGreen');
+  $('.border-yellow, .border-flat__darkViolet').removeClass('border-yellow border-flat__darkViolet').addClass('border-summer__yellowGreen');
 }
 
 $('.destination-slider').slick({
