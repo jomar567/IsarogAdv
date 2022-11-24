@@ -66,7 +66,7 @@ $('.main-slide').slick({
   speed: 300,
   slidesToShow: 1,
   slidesToScroll: 1,
-  // autoplay: true,
+  autoplay: true,
   fade: true,
   adaptiveHeight: true,
   asNavFor: '.thumbnail',
